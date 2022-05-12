@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1459207982041-089ff95be891?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #7fffd4;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1.1em;
+  color: #7fffd4;
+  font-size: 1.2em;
+}
+
+.nav li a:hover {
+  color: #a17fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+}
+
+h1 {
+  color: #7fffd4;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 2.2em;
+}
+
+p {
+  color: #7fffd4;
+  font-size: 1.2em;
+  padding-bottom: 1.6em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+button {
+  background: #7fffd44d;
+  font-size: 1.2em;
+  padding: 12px 40px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  transition: all .5s ease-in-out;
+}
+
+button:hover {
+  background: #a17fff4d;
+  border-radius: 25px;
+  transform: translateY(9px);
+}
